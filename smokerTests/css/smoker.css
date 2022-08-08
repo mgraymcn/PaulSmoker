@@ -1,11 +1,15 @@
+.container {
+    margin-top: 50px;
+}
 .album {
     margin: 10px;
     margin-bottom: 40px;
 }
 
 .albumCover, iframe {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
 }
 
 img {
@@ -21,4 +25,63 @@ img {
 
 li {
     list-style-type: none;
+}
+
+.groupings_index li {
+    display: flex;
+    
+}
+
+.groupings_index li a:hover{
+    color: #fff;
+    background-color: #00f;
+}
+
+.index {
+    
+}
+
+.grouping {
+    padding: 10px;
+    border: 2px;
+    border-color: #777;
+    border-style: solid;
+}
+
+.grouping:nth-child(even) {
+    background-color: #eee;
+}
+
+.album_divider_text  {
+    font-size: 1.5em;
+}
+
+.album_divider {
+    margin: 2em;
+}
+
+.album_divider a p {
+    color: #000;
+}
+
+.label {
+    color: #000;
+}
+
+
+.streamingLinks li {
+/*    margin: 10px;*/
+    padding: 10px;
+}
+
+
+
+
+.dropdown li a {
+    background-color: #000;
+    font: #fff;
+}
+
+.purchase_streaming_dropdown .btn {
+    background-color: #a88;
 }
