@@ -2,11 +2,12 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.bi, svg {
+a .bi {
     position: fixed;
     top: 50px;
     right: 15px;
 }
+
 .nav-item a {
     margin: 3px;
     color: #46a8f2;
@@ -126,16 +127,17 @@ li {
 .see_also_list li:hover {
     background-color: #fff;
     border: 1px solid #46a8f2;
-    margin: 9px;
+    padding: 9px;
 }
 
-.see_also_list a{
+.see_also_list a {
     text-decoration: none;
     color: #fff;
 }
-.see_also_list a:hover {
+.see_also_list a:hover li {
     color: #46a8f2;
     font-weight: 600;
+    background-color: #fff;
 }
 
 .streamingLinks li {
