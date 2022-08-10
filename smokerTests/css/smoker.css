@@ -1,6 +1,27 @@
 .container {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+.nav-item a {
+    margin: 3px;
+    color: #46a8f2;
+}
+
+
+.nav-item:hover {
+    background-color: #46a8f2;
+    color: #fff;
+    border-radius: 0.375rem;
+}
+.nav-item a:hover{
+    color: #fff;
+}
+
+#active {
+    background-color: #46a8f2;
+}
+
 .album {
     margin: 10px;
     margin-bottom: 40px;
@@ -17,7 +38,10 @@ img {
     border-color: #000;
     border-style: solid;
 }
-
+.video iframe {
+    width: 560px;
+    height: 315px;
+}
 .title {
     font-weight: 800;
     font-size: 1.5em;
@@ -32,24 +56,41 @@ li {
     
 }
 
-.groupings_index li a:hover{
+.index a:hover{
     color: #fff;
-    background-color: #00f;
+    background-color: #46a8f2;
 }
 
-.index {
-    
+.index button {
+    width: 75%;
+    margin: 10px;
+    background-color: #46a8f2;
+}
+
+.index button:active, .index button:hover, .index button:target {
+    background-color: #46a8f2;
 }
 
 .grouping {
     padding: 10px;
-    border: 2px;
+    border-left: 2px;
+    border-right: 2px;
     border-color: #777;
     border-style: solid;
 }
+.grouping:nth-child(odd) {
+    border-bottom: 2px #777 solid;
+    border-top: 2px #777 solid;
+}
+
+
 
 .grouping:nth-child(even) {
-    background-color: #eee;
+    background-color: #efe3cb;
+}
+
+.grouping:nth-child(odd){
+    background-color: #f9f9f9;
 }
 
 .album_divider_text  {
@@ -57,7 +98,7 @@ li {
 }
 
 .album_divider {
-    margin: 2em;
+    padding-top: 1em;
 }
 
 .album_divider a p {
@@ -68,6 +109,28 @@ li {
     color: #000;
 }
 
+.see_also_list li {
+    border-radius: 0.375rem;
+    padding: 10px;
+    margin: 10px;
+    background-color: #46a8f2;
+    max-width: 200px;
+}
+
+.see_also_list li:hover {
+    background-color: #fff;
+    border: 1px solid #46a8f2;
+    margin: 9px;
+}
+
+.see_also_list a{
+    text-decoration: none;
+    color: #fff;
+}
+.see_also_list a:hover {
+    color: #46a8f2;
+    font-weight: 600;
+}
 
 .streamingLinks li {
 /*    margin: 10px;*/
@@ -77,11 +140,12 @@ li {
 
 
 
-.dropdown li a {
-    background-color: #000;
-    font: #fff;
-}
 
 .purchase_streaming_dropdown .btn {
-    background-color: #a88;
+    background-color: #46a8f2;
+}
+.carousel-item p{
+    text-align: center;
+    line-height: 1.25em;
+    font-size: 1.25em;
 }
