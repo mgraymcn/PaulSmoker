@@ -4,7 +4,7 @@
 }
 .bi, svg {
     position: fixed;
-    top: 15px;
+    top: 50px;
     right: 15px;
 }
 .nav-item a {
@@ -60,7 +60,7 @@ li {
     
 }
 
-.index a:hover{
+.index a:hover {
     color: #fff;
     background-color: #46a8f2;
 }
@@ -72,9 +72,6 @@ li {
     background-color: #46a8f2;
 }
 
-.index button:active, .index button:hover, .index button:target {
-    background-color: #46a8f2;
-}
 
 .grouping {
     padding: 10px;
@@ -113,12 +110,16 @@ li {
 .label {
     color: #000;
 }
-
+.see_also_list {
+    padding-left: 0;
+}
 .see_also_list li {
     border-radius: 0.375rem;
     padding: 10px;
     margin: 10px;
     background-color: #46a8f2;
+    width: 75%;
+    min-width: 150px;
     max-width: 200px;
 }
 
@@ -143,7 +144,9 @@ li {
 }
 
 
-
+.press {
+    padding: 50px;
+}
 
 
 .purchase_streaming_dropdown .btn {
