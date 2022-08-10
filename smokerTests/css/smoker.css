@@ -2,7 +2,11 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
+.bi, svg {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
 .nav-item a {
     margin: 3px;
     color: #46a8f2;
@@ -63,6 +67,7 @@ li {
 
 .index button {
     width: 75%;
+    min-width: 100px;
     margin: 10px;
     background-color: #46a8f2;
 }
