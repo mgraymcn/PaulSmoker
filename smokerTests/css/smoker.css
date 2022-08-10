@@ -157,3 +157,29 @@ li {
     line-height: 1.25em;
     font-size: 1.25em;
 }
+
+.read_more {
+    background-color:#46a8f2;
+    max-width: 200px;
+    padding: 5px;
+    border-radius: 0.375rem;
+    color: #fff;
+}
+
+.read_more a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.read_more:hover {
+    background-color: #fff;
+    border: 1px solid #46a8f2;
+}
+.read_more:hover a {
+    color: #46a8f2;
+    text-decoration: underline;
+}
+
+.read_more:hover {
+    color: #000;
+}
