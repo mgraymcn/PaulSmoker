@@ -33,9 +33,12 @@ a .bi {
     margin: 10px;
     margin-bottom: 40px;
 }
-.collapse ul {
+.card-body {
     background-color: inherit;
+    border: 0px;
 }
+
+
 .albumCover, iframe {
     width: 250px;
     height: 250px;
